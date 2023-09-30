@@ -1,0 +1,16 @@
+.main-container{
+  
+    width: 100%;
+    display: flex;
+    overflow:auto;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+
+
+h1{
+    text-align: center; 
+} 

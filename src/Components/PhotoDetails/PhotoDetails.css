@@ -1,0 +1,61 @@
+.main-div{
+    background-color:#042E5E ;
+    display: flex;
+
+
+}
+
+.image-div{
+    flex: 1;
+    padding: 20px;
+ 
+}
+
+
+
+.description-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+
+.image-div img{
+    margin-left: 10px;
+    height: 500px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(134, 93, 200)
+}
+
+
+.description-div h1,h3{
+    color: white;
+
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+.btn{
+   background-color: blueviolet;
+   color: white;
+   width: 200px;
+   height: 60px;
+   font-size: xx-large;
+   border-radius: 20px;
+   margin-top: 20px;
+   margin-left: 550px;
+   box-shadow: 0 0 10px rgb(134, 93, 200);
+
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(162, 116, 206);
+    
+}

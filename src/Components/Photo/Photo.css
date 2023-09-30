@@ -1,0 +1,33 @@
+.photo-box{
+    width: calc(25%  10px);
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 25px;
+    transition: transform 0.5s
+
+}
+
+.photo-box{
+    width: calc(25%  10px);
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 25px;
+    transition: transform 0.5s
+
+} 
+
+.photo-box img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.photo-box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ 
+}
+
+
